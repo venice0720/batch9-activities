@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+  <header>
+    <h1><span id="tic">TIC </span><span id="tac">TAC </span><span id="toe">TOE</span></h1>
+</header>
+<div id="container">
+  <span id="turnIndicator">X's Turn</span>
+  <div id="">
+    <div class="board" id="board">
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+    
+  </div>
+  <div class="next-previous">
+    <button class="previous" id="previous">&laquo; </button>
+    <button class="next" id="next"> &raquo;</button>
+    <button id="resetBtn" class="reset">&#8635; </button>
+ </div>
+    <div class="winning-message" id="winningMessage">
+     <div data-winning-message-text></div>
+      <div class="modal-button">
+         <button id="restartButton">Play Again</button>
+         <button id="gameHistory">History</button>
+      </div>
+    </div>
+    <div class="turn-container" id="turnContainer">
+      <span id="firstTurn">Who will play first?</span>
+      <div>
+          <button id="X">X</button>
+          <button id="O">O</button>
+      </div>    
+   </div>
+</div>
+</body>
+</html>

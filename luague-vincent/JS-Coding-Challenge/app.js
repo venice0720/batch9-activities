@@ -67,3 +67,17 @@ if (username==="bensent" && password==="456"){
 else{
     console.log("correct")
 }
+
+// Odd or Even
+
+for( let ctr=0;ctr<=58;ctr++)
+if (ctr%2=== 0)
+{
+    console.log("blue")
+}
+else{
+    console.log("red")
+}
+
+
+
